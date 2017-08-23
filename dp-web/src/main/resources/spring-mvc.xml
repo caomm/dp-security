@@ -11,7 +11,7 @@
      	http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
 		http://www.springframework.org/schema/mvc 
      	http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
-
+<!--开启注解-->
 	<context:component-scan base-package="net.chenlin.dp" />
 	<context:annotation-config />
 	<mvc:default-servlet-handler />
