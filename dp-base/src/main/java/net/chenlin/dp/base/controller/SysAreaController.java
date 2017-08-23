@@ -29,7 +29,6 @@ public class SysAreaController extends AbstractController {
 
 	@Autowired
 	private SysAreaService sysAreaService;
-	
 	/**
 	 * 根据父级code查询子节点，子区域列表
 	 * @param params
